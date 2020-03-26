@@ -41,6 +41,6 @@ spec:
       - name: busybox
         image: busybox:latest
         ports:
-        - port: 81
+        - containerPort: 81
          
 
