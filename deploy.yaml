@@ -38,4 +38,9 @@ spec:
             cpu: "500m"
         ports:
         - containerPort: 80
+      - name: busybox
+        image: busybox:latest
+        ports:
+        - port: 81
+         
 
